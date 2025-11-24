@@ -16,6 +16,9 @@ export default function Footer() {
             <li>Fotogrametría</li>
             <li>Cartografía</li>
             <li>Capacitación</li>
+            <li>Catastro</li>
+            <li>Proyectos</li>
+            <li>Equipos</li>
           </ul>
         </div>
 

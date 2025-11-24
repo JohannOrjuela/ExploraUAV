@@ -29,10 +29,12 @@ export default function Navbar() {
                 <li><a href="/servicios/fotogrametria">Fotogrametría</a></li>
                 <li><a href="/servicios/cartografia">Cartografía</a></li>
                 <li><a href="/servicios/capacitacion">Capacitación</a></li>
+                <li><a href="/servicios/catastro">Catastro</a></li>
               </ul>
             )}
           </li>
-
+          <li><a href="/proyectos">Proyectos</a></li>
+            <li><a href="/equipos">Equipos</a></li>
           <li><a href="/contacto">Contacto</a></li>
 
         </ul>

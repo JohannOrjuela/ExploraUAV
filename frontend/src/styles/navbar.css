@@ -1,10 +1,22 @@
+/* -------------------------------------------------------- */
+/* NAVBAR FIJO Y POR ENCIMA DEL HERO                        */
+/* -------------------------------------------------------- */
 .navbar {
   width: 100%;
   background: #0c0c0c;
   color: white;
   padding: 14px 0;
+
+  position: fixed;         /* ← Fijo arriba */
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 9999;           /* ← Encima de todo */
+  backdrop-filter: blur(6px);
 }
 
+/* Contenedor interno */
 .nav-container {
   max-width: 1200px;
   margin: auto;
@@ -15,11 +27,13 @@
   align-items: center;
 }
 
+/* Logo */
 .logo {
   font-size: 22px;
   font-weight: bold;
 }
 
+/* Links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -38,20 +52,28 @@
   color: #4ac2ff;
 }
 
+/* -------------------------------------------------------- */
+/* DROPDOWN ESTABLE Y FÁCIL DE USAR                         */
+/* -------------------------------------------------------- */
 .dropdown {
   position: relative;
   cursor: pointer;
 }
 
+/* Menú desplegable */
 .dropdown-menu {
   position: absolute;
-  top: 30px;
+  top: 100%;               /* ← se pega justo debajo */
+  left: 0;
+
   background: #101010;
   border-radius: 6px;
   padding: 8px 0;
   list-style: none;
   min-width: 170px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+  z-index: 99999;          /* ← encima de todo */
 }
 
 .dropdown-menu li a {
