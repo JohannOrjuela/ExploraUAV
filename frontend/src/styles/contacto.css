@@ -1,0 +1,144 @@
+/* =============================== */
+/* HERO CONTACTO */
+/* =============================== */
+.contacto-hero {
+  width: 100%;
+  height: 45vh;
+  background: url("src/assets/images/drone-bg2.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.contacto-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+
+.contacto-hero .hero-content {
+  z-index: 2;
+  text-align: center;
+}
+
+.contacto-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.contacto-hero p {
+  font-size: 1.2rem;
+}
+
+/* =============================== */
+/* CONTACTO RÁPIDO */
+/* =============================== */
+.contacto-rapido {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.contacto-rapido h2 {
+  font-size: 2.2rem;
+}
+
+.contacto-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 1.5rem;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+
+.contact-card img {
+  width: 55px;
+  margin-bottom: 1rem;
+}
+
+/* =============================== */
+/* FORMULARIO */
+/* =============================== */
+.form-section {
+  padding: 4rem 1rem 6rem;
+  background: #f7faff;
+  text-align: center;
+}
+
+.form-section h2 {
+  font-size: 2.2rem;
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: 2.5rem auto 0;
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.4rem;
+  text-align: left;
+}
+
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  padding: 0.9rem;
+  border: 1px solid #dce3ef;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-group input:focus,
+.input-group textarea:focus,
+.input-group select:focus {
+  outline: 2px solid #00d4ff;
+}
+
+.form-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.btn-enviar {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.15rem;
+  background: #00d4ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background: #00b8e6;
+  transform: translateY(-3px);
+}
