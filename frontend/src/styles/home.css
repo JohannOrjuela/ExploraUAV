@@ -27,14 +27,28 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url("src/assets/images/drone-bg2.jpg") center/cover no-repeat;
   position: relative;
+  overflow: hidden;
+
+  /* Fallback (si el video tarda en cargar) */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
 }
+
+/* VIDEO */
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0; /* detrás del overlay */
+}
+
+/* CAPA OSCURA */
 .hero-bg-overlay {
   position: absolute;
   inset: 0;
@@ -42,6 +56,8 @@ body {
   backdrop-filter: blur(2px);
   z-index: 1;
 }
+
+/* CONTENIDO */
 .hero-content {
   position: relative;
   z-index: 3;
@@ -316,6 +332,7 @@ body {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
 @keyframes fadeScroll {
   to {
     opacity: 1;

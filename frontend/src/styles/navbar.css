@@ -3,7 +3,7 @@
 /* -------------------------------------------------------- */
 .navbar {
   width: 100%;
-  background: #0c0c0c;
+  background: #000;
   color: white;
   padding: 14px 0;
 
@@ -28,10 +28,15 @@
 }
 
 /* Logo */
-.logo {
-  font-size: 22px;
-  font-weight: bold;
+/* Logo container */
+.logo img {
+  height: 45px;       /* ← Ajusta el alto del logo */
+  width: auto;        /* ← Mantiene proporción */
+  display: block;     /* ← Evita espacios raros */
+  display: flex;
+  align-items: center;
 }
+
 
 /* Links */
 .nav-links {

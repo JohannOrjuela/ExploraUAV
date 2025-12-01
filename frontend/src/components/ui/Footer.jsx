@@ -24,8 +24,12 @@ export default function Footer() {
 
         <div className="col">
           <h4>Contacto</h4>
-          <p>Email: info@explorauav.com</p>
-          <p>Tel: +57 300 000 0000</p>
+          <p>Correos:</p>
+          <p>proyectos@explorauav.com.co</p>
+          <p>gerencia@explorauav.com.co</p>
+          <p>comercial@explorauav.com.co</p>
+
+          <p>Cel: +57 300 367 8766</p>
         </div>
       </div>
 

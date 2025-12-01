@@ -2,25 +2,30 @@ import "../styles/home.css";
 import { Link } from "react-router-dom";
 // --- ÍCONOS PARA LA BARRA DE CONFIANZA (Reemplazados por IMG) ---
 // NOTA: Estas rutas apuntan a archivos locales que debes asegurar que existan.
-const IconAccuracy = () => (<img src="src/assets/images/icon-accuracy.svg" alt="Icono de Precisión" className="trust-icon" />);
-const IconSpeed = () => (<img src="src/assets/images/icon-speed.svg" alt="Icono de Velocidad" className="trust-icon" />);
-const IconSafety = () => (<img src="src/assets/images/icon-safety.svg" alt="Icono de Seguridad" className="trust-icon" />);
-const IconCoverage = () => (<img src="src/assets/images/icon-coverage.svg" alt="Icono de Cobertura" className="trust-icon" />);
+const IconAccuracy = () => (<img src="/images/icons/precision_trust.png" alt="Icono de Precisión" className="trust-icon" />);
+const IconSpeed = () => (<img src="/images/icons/velocidad_trust.jpg" alt="Icono de Velocidad" className="trust-icon" />);
+const IconSafety = () => (<img src="/images/icons/seguridad_trust.png" alt="Icono de Seguridad" className="trust-icon" />);
+const IconCoverage = () => (<img src="/images/icons/cobertura_trust.png" alt="Icono de Cobertura" className="trust-icon" />);
 // --- Componentes de Ícono de Servicio (Usando tus imágenes y placeholders) ---
-const IconLidar = () => (<img src="uploaded:image_e36b92.png-23282d1f-7835-4ae4-8d03-304fc4d90641" alt="Ícono de Servicio LiDAR" className="service-logo" />);
-const IconCamera = () => (<img src="uploaded:image_e36037.png-d2ea92df-3550-469b-9c2a-75c65900d9c7" alt="Ícono de Servicio Fotogrametría" className="service-logo" />);
-const IconMap = () => (<img src="https://placehold.co/80x80/00a8d6/ffffff?text=Map" alt="Ícono de Servicio Cartografía" className="service-logo" />);
-const IconBook = () => (<img src="https://placehold.co/80x80/00a8d6/ffffff?text=Cap" alt="Ícono de Servicio Capacitación" className="service-logo" />);
-const IconHome = () => (<img src="https://placehold.co/80x80/00a8d6/ffffff?text=Cat" alt="Ícono de Servicio Catastro" className="service-logo" />);
-const IconProjects = () => (<img src="https://placehold.co/80x80/00a8d6/ffffff?text=Proj" alt="Ícono de Proyectos" className="service-logo" />);
-const IconDrone = () => (<img src="https://placehold.co/80x80/00a8d6/ffffff?text=Equip" alt="Ícono de Equipos" className="service-logo" />);
+const IconLidar = () => (<img src="/images/icons/lidar_servicios.png" alt="Ícono de Servicio LiDAR" className="service-logo" />);
+const IconCamera = () => (<img src="/images/icons/fotogrametria_servicios.png" alt="Ícono de Servicio Fotogrametría" className="service-logo" />);
+const IconMap = () => (<img src="/images/icons/cartografia_servicios.png" alt="Ícono de Servicio Cartografía" className="service-logo" />);
+const IconBook = () => (<img src="/images/icons/capacitacion_servicios.png" alt="Ícono de Servicio Capacitación" className="service-logo" />);
+const IconHome = () => (<img src="/images/icons/catastro_servicios.jpg" alt="Ícono de Servicio Catastro" className="service-logo" />);
+const IconProjects = () => (<img src="/images/icons/proyectos_servicios.png" alt="Ícono de Proyectos" className="service-logo" />);
+const IconDrone = () => (<img src="/images/icons/equipos_servicios.png" alt="Ícono de Equipos" className="service-logo" />);
 // --- Componente Principal ---
 export default function Home() {
   return (
     <div className="home-container">
       {/* ----------------- HERO ----------------- */}
       <section className="hero">
+        <video className="hero-video" autoPlay loop muted playsInline>
+          <source src="/videos/video_home.mp4" type="video/mp4" />
+        </video>
+
         <div className="hero-bg-overlay"></div>
+
         <div className="hero-content fade-stagger">
           <h1 className="title floating">ExploraUAV</h1>
           <p className="subtitle">
@@ -31,6 +36,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
       {/* ----------------- SECCIÓN: BARRA DE CONFIANZA ----------------- */}
       <section className="trust-bar scroll-fade">
         {/* Usando los componentes que ahora contienen etiquetas <img> */}
@@ -113,24 +119,43 @@ export default function Home() {
       {/* ----------------- SECCIÓN: PROCESO DE TRABAJO ----------------- */}
       <section className="how-it-works scroll-fade">
         <h2 className="section-title">Nuestro Proceso de Trabajo</h2>
+
         <div className="process-grid">
-          <div className="process-step scroll-fade">
-            <div className="process-number">01</div>
-            <h3>Planificación y Vuelo</h3>
-            <p>Definimos la zona de interés y configuramos la misión con drones equipados con tecnología RTK/PPK.</p>
-          </div>
-          <div className="process-step scroll-fade">
-            <div className="process-number">02</div>
-            <h3>Procesamiento de Datos</h3>
-            <p>Utilizamos software especializado para transformar las imágenes en modelos 2D, 3D y nubes de puntos de alta densidad.</p>
-          </div>
-          <div className="process-step scroll-fade">
-            <div className="process-number">03</div>
-            <h3>Entrega de Resultados</h3>
-            <p>Te entregamos ortomosaicos, DTM/DSM, modelos 3D y reportes listos para integrar en tu software GIS.</p>
-          </div>
+
+        <div className="process-step scroll-fade">
+          <div className="process-number">01</div>
+          <h3>Análisis de Seguridad</h3>
+          <p>Evaluamos riesgos operacionales y gestionamos permisos ante la autoridad aeronáutica.</p>
         </div>
+
+        <div className="process-step scroll-fade">
+          <div className="process-number">02</div>
+          <h3>Planificación y Vuelo</h3>
+          <p>Definimos la zona de interés y realizamos la captura de datos fotogrametricos y/o LiDAR.</p>
+        </div>
+
+        <div className="process-step scroll-fade">
+          <div className="process-number">03</div>
+          <h3>Procesamiento de Datos</h3>
+          <p>Procesamos datos GNSS, Imágenes y Datos LiDAR.</p>
+        </div>
+
+        <div className="process-step scroll-fade">
+          <div className="process-number">04</div>
+          <h3>Aseguramiento de la Calidad</h3>
+          <p>Aplicamos control de calidad (QA/QC) y verificamos la precisión de los resultados.</p>
+        </div>
+
+        <div className="process-step scroll-fade">
+          <div className="process-number">05</div>
+          <h3>Entrega de Resultados</h3>
+          <p>Entregamos ortomosaicos, DTM/DSM, modelos 3D, cartografía.</p>
+        </div>
+
+      </div>
+
       </section>
+
       {/* ----------------- CTA FINAL ----------------- */}
       <section className="cta">
         <h2>¿Listo para iniciar tu proyecto?</h2>

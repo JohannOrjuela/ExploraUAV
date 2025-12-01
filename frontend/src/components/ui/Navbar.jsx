@@ -8,7 +8,9 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
 
-        <div className="logo">ExploraUAV</div>
+        <div className="logo">
+          <img src="/images/logo/Logo_UAV.png" alt="Logo UAV" />
+        </div>
 
         <ul className="nav-links">
 
