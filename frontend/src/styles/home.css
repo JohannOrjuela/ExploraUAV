@@ -228,6 +228,7 @@ body {
   background-color: #fff;
   /* Fondo blanco */
   text-align: center;
+
 }
 .process-grid {
   display: flex;
@@ -235,6 +236,8 @@ body {
   gap: 2rem;
   max-width: 1000px;
   margin: 3rem auto 0 auto;
+  text-align: justify;
+
 }
 .process-step {
   flex: 1;
@@ -255,6 +258,8 @@ body {
   color: #00d4ff;
   margin-bottom: 0.5rem;
   line-height: 1;
+  text-align: center;
+
 }
 .process-step h3 {
   font-size: 1.4rem;
