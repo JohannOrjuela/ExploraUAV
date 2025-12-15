@@ -35,7 +35,7 @@ export default function Contacto() {
           <div className="contact-card">
             <img src="/images/icons/telefono.png" alt="Teléfono" />
             <h3>Teléfono</h3>
-            <p>+57 300 367 8766</p>
+            <p>+57 300 781 5853</p>
           </div>
 
           <div className="contact-card">

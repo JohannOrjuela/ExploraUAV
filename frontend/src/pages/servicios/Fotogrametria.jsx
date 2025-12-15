@@ -8,7 +8,7 @@ export default function Fotogrametria() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <h1>Fotogrametría Aérea</h1>
-          <p>Ortomosaicos y modelos 3D precisos a partir de imágenes captadas por UAV.</p>
+          <p>Generamos información geoespacial de alta precisión a partir de imágenes captadas por UAV.</p>
         </div>
       </header>
 
@@ -28,13 +28,8 @@ export default function Fotogrametria() {
           <div className="bloque-text">
             <h2>Productos</h2>
             <p>
-              Entregamos ortomosaicos georreferenciados, nubes de puntos derivadas y modelos texturizados.
+              Entregamos ortomosaicos georreferenciados, DTM/DSM, modelos 3D y cartografia.
             </p>
-            <ul>
-              <li>Orto 1–5 cm/pixel según sensor</li>
-              <li>Modelos 3D texturizados</li>
-              <li>Inspección y control de obra</li>
-            </ul>
           </div>
         </section>
 
@@ -43,15 +38,11 @@ export default function Fotogrametria() {
             <img src="/images/servicios/fotogrametria/PlanificacionVuelo.png" alt="Volumetría" />
           </div>
           <div className="bloque-text">
-            <h2>Flujos de trabajo</h2>
+            <h2>Flujo de trabajo</h2>
             <p>
-              Procesos completos: planificación de vuelo, captura, calibración de GCP/RTK y postprocesamiento.
+               Ubicación y captura de GCP, planificación y ejecución de vuelo, chequeo de la integridad de la información,
+               procesamiento de datos, control de calidad y entrega de productos.
             </p>
-            <ul>
-              <li>Misión planificada y optimizada</li>
-              <li>Control con GCP o RTK</li>
-              <li>Entrega en formatos GIS y CAD</li>
-            </ul>
           </div>
         </section>
 
@@ -62,13 +53,10 @@ export default function Fotogrametria() {
           <div className="bloque-text">
             <h2>Usos comunes</h2>
             <p>
-              Catastro, monitoreo de obras, agricultura de precisión, y levantamientos topográficos.
+              Catastro, cartografia basica/tematica, monitoreo de obras,
+              agricultura de precisión, levantamientos topográficos,
+              modelamientos hidraulicos, ordenamiento territorial, entre otros.
             </p>
-            <ul>
-              <li>Mapas temáticos</li>
-              <li>Control de progreso de obra</li>
-              <li>Análisis de cambio temporal</li>
-            </ul>
           </div>
         </section>
       </main>

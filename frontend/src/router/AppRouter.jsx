@@ -8,7 +8,6 @@ import Home from "../pages/Home";
 import Nosotros from "../pages/Nosotros";
 import Contacto from "../pages/Contacto";
 import Proyectos from "../pages/Proyectos";
-import Equipos from "../pages/Equipos";
 
 // Servicios
 import Lidar from "../pages/servicios/Lidar";
@@ -29,7 +28,6 @@ export default function AppRouter() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/proyectos" element={<Proyectos />} />
-          <Route path="/equipos" element={<Equipos />} />
 
           {/* Servicios */}
           <Route path="/servicios/lidar" element={<Lidar />} />

@@ -7,7 +7,7 @@ export default function Cartografia() {
       <header className="servicio-hero" style={{backgroundImage: `url(${droneBg})`,}}>
         <div className="hero-overlay" />
         <div className="hero-content">
-          <h1>Cartografía Técnica y Temática</h1>
+          <h1>Cartografía Basica y Temática</h1>
           <p>Mapas listos para integración en proyectos de ingeniería, planeación y gestión del territorio.</p>
         </div>
       </header>
@@ -20,13 +20,8 @@ export default function Cartografia() {
           <div className="bloque-text">
             <h2>Qué entregamos</h2>
             <p>
-              Mapas topográficos, temáticos y productos SIG listos para análisis y toma de decisiones.
+              Cartografia basica, topográfica, temática y productos SIG listos para análisis y toma de decisiones.
             </p>
-            <ul>
-              <li>Mapas topográficos y temáticos</li>
-              <li>Capas SIG y shapefiles</li>
-              <li>Geoprocesamiento y análisis espacial</li>
-            </ul>
           </div>
         </section>
 
@@ -54,13 +49,10 @@ export default function Cartografia() {
           <div className="bloque-text">
             <h2>Usos</h2>
             <p>
-              Planeación urbana, gestión del riesgo, ordenamiento territorial y apoyo a proyectos de infraestructura.
+              Catastro, cartografia basica/tematica, monitoreo de obras,
+              agricultura de precisión, levantamientos topográficos,
+              modelamientos hidraulicos, ordenamiento territorial, entre otros.
             </p>
-            <ul>
-              <li>Ordenamiento territorial</li>
-              <li>Gestión de riesgo y vulnerabilidad</li>
-              <li>Soporte a diseño y construcción</li>
-            </ul>
           </div>
         </section>
       </main>

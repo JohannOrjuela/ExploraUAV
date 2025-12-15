@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // --- ÍCONOS PARA LA BARRA DE CONFIANZA (Reemplazados por IMG) ---
 // NOTA: Estas rutas apuntan a archivos locales que debes asegurar que existan.
 const IconAccuracy = () => (<img src="/images/icons/precision_trust.png" alt="Icono de Precisión" className="trust-icon" />);
-const IconSpeed = () => (<img src="/images/icons/velocidad_trust.jpg" alt="Icono de Velocidad" className="trust-icon" />);
+const IconSpeed = () => (<img src="/images/icons/velocidad_trust.png" alt="Icono de Velocidad" className="trust-icon" />);
 const IconSafety = () => (<img src="/images/icons/seguridad_trust.png" alt="Icono de Seguridad" className="trust-icon" />);
 const IconCoverage = () => (<img src="/images/icons/cobertura_trust.png" alt="Icono de Cobertura" className="trust-icon" />);
 // --- Componentes de Ícono de Servicio (Usando tus imágenes y placeholders) ---
@@ -41,24 +41,30 @@ export default function Home() {
       <section className="trust-bar scroll-fade">
         {/* Usando los componentes que ahora contienen etiquetas <img> */}
         <div className="trust-item">
+          <IconSafety />
+          <h4>Seguridad Garantizada</h4>
+          <p>Contamos con pólizas de seguro de responsabilidad civil vigentes y
+             aseguramos el estricto cumplimiento de toda la normativa aeronáutica
+             actual para nuestras operaciones.</p>
+        </div>
+
+        <div className="trust-item">
           <IconAccuracy />
           <h4>Máxima Precisión</h4>
-          <p>Datos georreferenciados con exactitud centimétrica.</p>
+          <p>Cumplimos con los estandares de calidad propuestos por las entidades.</p>
         </div>
         <div className="trust-item">
           <IconSpeed />
-          <h4>Entrega Rápida</h4>
-          <p>Reducción de tiempos de levantamiento hasta en un 70%.</p>
+          <h4>Equipo Altamente Cualificado</h4>
+          <p>Contamos con profesionales que tienen formacion academica especializada
+            en generacion de información geoespacial.
+          </p>
         </div>
-        <div className="trust-item">
-          <IconSafety />
-          <h4>Seguridad Garantizada</h4>
-          <p>Minimización de riesgos al evitar personal en zonas peligrosas.</p>
-        </div>
+
         <div className="trust-item">
           <IconCoverage />
           <h4>Cobertura Extensa</h4>
-          <p>Mapeo eficiente de grandes extensiones territoriales.</p>
+          <p>Contamos con la experiencia suficiente para el mapeo de grandes extenciones.</p>
         </div>
       </section>
       {/* ----------------- SECCIÓN: SERVICIOS ----------------- */}
@@ -69,51 +75,46 @@ export default function Home() {
           <div className="service-card card-3d">
             <IconLidar />
             <h3>LiDAR</h3>
-            <p>Mapeo láser de alta precisión para topografía avanzada.</p>
+            <p>Mapeo láser de alta precisión.</p>
             <Link to="/servicios/lidar" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Fotogrametría (con tu imagen) */}
           <div className="service-card card-3d">
             <IconCamera />
             <h3>Fotogrametría</h3>
-            <p>Modelos 2D y 3D a partir de imágenes captadas con drones.</p>
+            <p>Mapeo por metodos fotogramétricos de alta precisión.</p>
             <Link to="/servicios/fotogrametria" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Cartografía (placeholder) */}
           <div className="service-card card-3d">
             <IconMap />
             <h3>Cartografía</h3>
-            <p>Mapas profesionales para ingeniería, minería y obras civiles.</p>
+            <p>Generación de cartografía basica y tematica bajo los estandares de calidad vijentes.</p>
             <Link to="/servicios/cartografia" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Capacitación (placeholder) */}
           <div className="service-card card-3d">
             <IconBook />
             <h3>Capacitación</h3>
-            <p>Formación profesional en operación de drones y análisis de datos.</p>
+            <p>Formación tecnica en areas de captura de datos, fotogrametria y lidar.</p>
             <Link to="/servicios/capacitacion" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Catastro (placeholder) */}
           <div className="service-card card-3d">
             <IconHome />
             <h3>Catastro</h3>
-            <p>Levantamientos catastrales modernos con tecnología UAV.</p>
+            <p>Apoyo mediante levantamientos fotogrametricos para la valoración,
+              formación y actualización de catastros.</p>
             <Link to="/servicios/catastro" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Proyectos (placeholder) */}
           <div className="service-card card-3d">
             <IconProjects />
             <h3>Proyectos</h3>
-            <p>Explora nuestros proyectos destacados y casos de éxito.</p>
+            <p>Explora algunos de nuestros proyectos destacados y casos de éxito.</p>
             <Link to="/proyectos" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Equipos (placeholder) */}
-          <div className="service-card card-3d">
-            <IconDrone />
-            <h3>Equipos</h3>
-            <p>Conoce los drones y equipos que utilizamos para tus proyectos.</p>
-            <Link to="/equipos" className="card-link">Ver más →</Link>
-          </div>
         </div>
       </section>
       {/* ----------------- SECCIÓN: PROCESO DE TRABAJO ----------------- */}
@@ -125,13 +126,15 @@ export default function Home() {
         <div className="process-step scroll-fade">
           <div className="process-number">01</div>
           <h3>Análisis de Seguridad</h3>
-          <p>Evaluamos riesgos operacionales y gestionamos permisos ante la autoridad aeronáutica.</p>
+          <p>Definimos la zona de interés, evaluamos riesgos operacionales
+            y gestionamos permisos ante la autoridad aeronáutica.</p>
         </div>
 
         <div className="process-step scroll-fade">
           <div className="process-number">02</div>
-          <h3>Planificación y Vuelo</h3>
-          <p>Definimos la zona de interés y realizamos la captura de datos fotogrametricos y/o LiDAR.</p>
+          <h3>Actividades de campo</h3>
+          <p> Cordinación y aviso a autoridades, materialización y/o demarcación
+              de puntos de control y vuelos fotogrametricos y/o LiDAR.</p>
         </div>
 
         <div className="process-step scroll-fade">

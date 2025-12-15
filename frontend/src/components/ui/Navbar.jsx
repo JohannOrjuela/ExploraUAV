@@ -36,7 +36,6 @@ export default function Navbar() {
             )}
           </li>
           <li><a href="/proyectos">Proyectos</a></li>
-            <li><a href="/equipos">Equipos</a></li>
           <li><a href="/contacto">Contacto</a></li>
 
         </ul>

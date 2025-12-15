@@ -20,7 +20,7 @@ export default function Catastro() {
           <div className="bloque-text">
             <h2>Servicios catastrales</h2>
             <p>
-              Levantamientos para actualización catastral, delimitación de predios y generación de planos certificables.
+              Levantamientos para actualización catastral, delimitación de predios y generación de planos.
             </p>
             <ul>
               <li>• Levantamientos parcelarios</li>

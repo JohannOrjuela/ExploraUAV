@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="col">
           <h3>ExploraUAV</h3>
-          <p>Soluciones profesionales con drones para tu proyecto.</p>
+          <p>Información geoespacial multiproposito.</p>
         </div>
 
         <div className="col">
@@ -19,7 +19,6 @@ export default function Footer() {
             <li><Link to="/servicios/capacitacion">Capacitación</Link></li>
             <li><Link to="/servicios/catastro">Catastro</Link></li>
             <li><Link to="/proyectos">Proyectos</Link></li>
-            <li><Link to="/equipos">Equipos</Link></li>
           </ul>
         </div>
 
