@@ -1,5 +1,5 @@
 import "../../styles/servicios.css";
-import droneBg from "../../assets/images/drone-bg.jpg";
+import droneBg from "/images/servicios/cartografia/Cartografia.jpg";
 
 export default function Cartografia() {
   return (
@@ -15,7 +15,7 @@ export default function Cartografia() {
       <main className="servicio-body">
         <section className="bloque">
           <div className="bloque-img">
-            <img src="https://placehold.co/900x600/00334d/ffffff?text=Cartografia" alt="Cartografía" />
+            <img src="/images/servicios/cartografia/Mapa.jpg" alt="Cartografía" />
           </div>
           <div className="bloque-text">
             <h2>Qué entregamos</h2>
@@ -23,16 +23,16 @@ export default function Cartografia() {
               Mapas topográficos, temáticos y productos SIG listos para análisis y toma de decisiones.
             </p>
             <ul>
-              <li>• Mapas topográficos y temáticos</li>
-              <li>• Capas SIG y shapefiles</li>
-              <li>• Geoprocesamiento y análisis espacial</li>
+              <li>Mapas topográficos y temáticos</li>
+              <li>Capas SIG y shapefiles</li>
+              <li>Geoprocesamiento y análisis espacial</li>
             </ul>
           </div>
         </section>
 
         <section className="bloque reverse">
           <div className="bloque-img">
-            <img src="https://placehold.co/900x600/006688/ffffff?text=GIS" alt="GIS" />
+            <img src="/images/servicios/cartografia/Gis.jpg" alt="GIS" />
           </div>
           <div className="bloque-text">
             <h2>Integración GIS</h2>
@@ -40,16 +40,16 @@ export default function Cartografia() {
               Trabajamos con estándares abiertos y formatos compatibles con las principales plataformas SIG.
             </p>
             <ul>
-              <li>• Shapefile, GeoJSON, GeoTIFF</li>
-              <li>• Compatibilidad con QGIS y ArcGIS</li>
-              <li>• Metadatos y documentación técnica</li>
+              <li>Shapefile, GeoJSON, GeoTIFF</li>
+              <li>Compatibilidad con QGIS y ArcGIS</li>
+              <li>Metadatos y documentación técnica</li>
             </ul>
           </div>
         </section>
 
         <section className="bloque">
           <div className="bloque-img">
-            <img src="https://placehold.co/900x600/00a8d6/ffffff?text=Mapas" alt="Mapas" />
+            <img src="/images/servicios/cartografia/Riesgos.png" alt="Mapas" />
           </div>
           <div className="bloque-text">
             <h2>Usos</h2>
@@ -57,9 +57,9 @@ export default function Cartografia() {
               Planeación urbana, gestión del riesgo, ordenamiento territorial y apoyo a proyectos de infraestructura.
             </p>
             <ul>
-              <li>• Ordenamiento territorial</li>
-              <li>• Gestión de riesgo y vulnerabilidad</li>
-              <li>• Soporte a diseño y construcción</li>
+              <li>Ordenamiento territorial</li>
+              <li>Gestión de riesgo y vulnerabilidad</li>
+              <li>Soporte a diseño y construcción</li>
             </ul>
           </div>
         </section>

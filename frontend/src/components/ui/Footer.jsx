@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../styles/footer.css";
 
 export default function Footer() {
@@ -12,13 +13,13 @@ export default function Footer() {
         <div className="col">
           <h4>Servicios</h4>
           <ul>
-            <li>LiDAR</li>
-            <li>Fotogrametría</li>
-            <li>Cartografía</li>
-            <li>Capacitación</li>
-            <li>Catastro</li>
-            <li>Proyectos</li>
-            <li>Equipos</li>
+            <li><Link to="/servicios/lidar">LiDAR</Link></li>
+            <li><Link to="/servicios/fotogrametria">Fotogrametría</Link></li>
+            <li><Link to="/servicios/cartografia">Cartografía</Link></li>
+            <li><Link to="/servicios/capacitacion">Capacitación</Link></li>
+            <li><Link to="/servicios/catastro">Catastro</Link></li>
+            <li><Link to="/proyectos">Proyectos</Link></li>
+            <li><Link to="/equipos">Equipos</Link></li>
           </ul>
         </div>
 

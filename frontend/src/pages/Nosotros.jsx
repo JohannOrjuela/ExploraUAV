@@ -22,7 +22,7 @@ export default function Nosotros() {
         {/* ------------- INGENIERO 1 ------------- */}
         <div className="equipo-item">
           <img
-            src="/images/icons/pilotoUAV.png"
+            src="/images/nosotros/pilotoUAV.png"
             className="equipo-img"
             alt="Ingeniero 1"
           />
@@ -44,7 +44,7 @@ export default function Nosotros() {
         {/* ------------- INGENIERO 2 ------------- */}
         <div className="equipo-item reverse">
           <img
-            src="https://placehold.co/500x500/0077aa/ffffff?text=Ingeniera+2"
+            src="/images/nosotros/ingeniera.png"
             className="equipo-img"
             alt="Ingeniera 2"
           />
@@ -69,7 +69,7 @@ export default function Nosotros() {
         {/* ------------- INGENIERO 3 ------------- */}
         <div className="equipo-item">
           <img
-            src="https://placehold.co/500x500/005f88/ffffff?text=Ingeniero+3"
+            src="/images/nosotros/ingeniero.png"
             className="equipo-img"
             alt="Ingeniero 3"
           />

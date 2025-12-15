@@ -27,71 +27,26 @@ export default function Contacto() {
             target="_blank"
             className="contact-card"
           >
-            <img src="src/assets/images/icon-whatsapp.svg" alt="WhatsApp" />
+            <img src="/images/icons/wasap.png" alt="WhatsApp" />
             <h3>WhatsApp</h3>
             <p>+57 300 367 8766</p>
           </a>
 
           <div className="contact-card">
-            <img src="src/assets/images/icon-phone.svg" alt="Teléfono" />
+            <img src="/images/icons/telefono.png" alt="Teléfono" />
             <h3>Teléfono</h3>
-            <p>+57 601 555 8899</p>
+            <p>+57 300 367 8766</p>
           </div>
 
           <div className="contact-card">
-            <img src="src/assets/images/icon-mail.svg" alt="Correo" />
+            <img src="/images/icons/correo.png" alt="Correo" />
             <h3>Email</h3>
-            <p>contacto@explorauav.com</p>
+            <p>proyectos@explorauav.com.co</p>
+            <p>gerencia@explorauav.com.co</p>
+            <p>comercial@explorauav.com.co</p>
           </div>
         </div>
       </section>
-
-      {/* ------- FORMULARIO ------- */}
-      <section className="form-section">
-        <h2>Envíanos un Mensaje</h2>
-        <p>Nos pondremos en contacto lo más pronto posible.</p>
-
-        <form className="contact-form">
-
-          <div className="input-group">
-            <label>Nombre Completo</label>
-            <input type="text" placeholder="Tu nombre" />
-          </div>
-
-          <div className="form-2-col">
-            <div className="input-group">
-              <label>Correo Electrónico</label>
-              <input type="email" placeholder="tucorreo@example.com" />
-            </div>
-
-            <div className="input-group">
-              <label>Teléfono</label>
-              <input type="text" placeholder="+57 ___ ___ ____" />
-            </div>
-          </div>
-
-          <div className="input-group">
-            <label>Servicio de Interés</label>
-            <select>
-              <option value="">Seleccionar...</option>
-              <option value="lidar">LiDAR</option>
-              <option value="fotogrametria">Fotogrametría</option>
-              <option value="cartografia">Cartografía</option>
-              <option value="capacitación">Capacitación</option>
-              <option value="catastro">Catastro</option>
-              <option value="otros">Otros</option>
-            </select>
-          </div>
-
-          <div className="input-group">
-            <label>Mensaje</label>
-            <textarea rows="5" placeholder="Cuéntanos sobre tu proyecto"></textarea>
-          </div>
-
-          <button className="btn-enviar">Enviar Mensaje</button>
-        </form>
-      </section>
-
     </div>
   );
 }
