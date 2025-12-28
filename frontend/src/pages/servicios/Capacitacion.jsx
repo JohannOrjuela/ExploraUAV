@@ -8,7 +8,7 @@ export default function Capacitacion() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <h1>Capacitación Profesional</h1>
-          <p>Cursos y talleres en fotogrametría, LiDAR y cartografia.</p>
+          <p>Cursos y talleres en fotogrametría, LiDAR y cartografía.</p>
         </div>
       </header>
 
@@ -33,7 +33,7 @@ export default function Capacitacion() {
           <div className="bloque-text">
             <h2>Dirigido a</h2>
             <p>
-              Tecnicos y profesionales relacionados con areas de la geomatica.
+              Técnicos y profesionales relacionados con áreas de la geomática.
             </p>
             <ul>
               <li>Empresas</li>

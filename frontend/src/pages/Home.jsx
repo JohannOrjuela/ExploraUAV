@@ -51,13 +51,13 @@ export default function Home() {
         <div className="trust-item">
           <IconAccuracy />
           <h4>Máxima Precisión</h4>
-          <p>Cumplimos con los estandares de calidad propuestos por las entidades.</p>
+          <p>Cumplimos con los estándares de calidad propuestos por las entidades.</p>
         </div>
         <div className="trust-item">
           <IconSpeed />
           <h4>Equipo Altamente Cualificado</h4>
-          <p>Contamos con profesionales que tienen formacion academica especializada
-            en generacion de información geoespacial.
+          <p>Contamos con profesionales que tienen formación académica especializada
+            en generación de información geoespacial.
           </p>
         </div>
 
@@ -82,28 +82,28 @@ export default function Home() {
           <div className="service-card card-3d">
             <IconCamera />
             <h3>Fotogrametría</h3>
-            <p>Mapeo por metodos fotogramétricos de alta precisión.</p>
+            <p>Mapeo por métodos fotogramétricos de alta precisión.</p>
             <Link to="/servicios/fotogrametria" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Cartografía (placeholder) */}
           <div className="service-card card-3d">
             <IconMap />
             <h3>Cartografía</h3>
-            <p>Generación de cartografía basica y tematica bajo los estandares de calidad vijentes.</p>
+            <p>Generación de cartografía básica y temática bajo los estándares de calidad vigentes.</p>
             <Link to="/servicios/cartografia" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Capacitación (placeholder) */}
           <div className="service-card card-3d">
             <IconBook />
             <h3>Capacitación</h3>
-            <p>Formación tecnica en areas de captura de datos, fotogrametria y lidar.</p>
+            <p>Formación técnica en áreas de captura de datos, fotogrametria y lidar.</p>
             <Link to="/servicios/capacitacion" className="card-link">Ver más →</Link>
           </div>
           {/* Tarjeta Catastro (placeholder) */}
           <div className="service-card card-3d">
             <IconHome />
             <h3>Catastro</h3>
-            <p>Apoyo mediante levantamientos fotogrametricos para la valoración,
+            <p>Apoyo mediante levantamientos fotogramétricos para la valoración,
               formación y actualización de catastros.</p>
             <Link to="/servicios/catastro" className="card-link">Ver más →</Link>
           </div>
@@ -132,15 +132,15 @@ export default function Home() {
 
         <div className="process-step scroll-fade">
           <div className="process-number">02</div>
-          <h3>Actividades de campo</h3>
+          <h3>Actividades de Campo</h3>
           <p> Cordinación y aviso a autoridades, materialización y/o demarcación
-              de puntos de control y vuelos fotogrametricos y/o LiDAR.</p>
+              de puntos de control y vuelos fotogramétricos y/o LiDAR.</p>
         </div>
 
         <div className="process-step scroll-fade">
           <div className="process-number">03</div>
           <h3>Procesamiento de Datos</h3>
-          <p>Procesamos datos GNSS, Imágenes y Datos LiDAR.</p>
+          <p>Procesamos datos GNSS, Imágenes y datos LiDAR.</p>
         </div>
 
         <div className="process-step scroll-fade">

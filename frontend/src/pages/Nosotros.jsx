@@ -60,7 +60,7 @@ export default function Nosotros() {
               Bases de Datos Geográficas.
               Además, es Piloto Profesional de Aeronaves No Tripuladas (UAV) con enfoque en
               Fotogrametría y se desempeña como Jefe de Seguridad Operacional (SMS), garantizando
-              la eficiencia y la seguridad en todas las misiones de captura de datos. Su expertise se
+              la eficiencia y la seguridad en todas las misiones de captura de datos. Su experticia se
               complementa con 5 años de experiencia docente en Fotogrametría y SIG en la UDCA.
             </p>
           </div>

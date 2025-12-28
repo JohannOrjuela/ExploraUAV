@@ -18,14 +18,14 @@ export default function Catastro() {
             <img src="https://placehold.co/900x600/004466/ffffff?text=Catastro" alt="Catastro" />
           </div>
           <div className="bloque-text">
-            <h2>Servicios catastrales</h2>
+            <h2>Servicios Catastrales</h2>
             <p>
               Levantamientos para actualización catastral, delimitación de predios y generación de planos.
             </p>
             <ul>
-              <li>• Levantamientos parcelarios</li>
-              <li>• Digitalización y georreferenciación</li>
-              <li>• Entregables compatibles con normativa</li>
+              <li>Levantamientos parcelarios</li>
+              <li>Digitalización y georreferenciación</li>
+              <li>Entregables compatibles con normativa</li>
             </ul>
           </div>
         </section>
@@ -35,7 +35,7 @@ export default function Catastro() {
             <img src="https://placehold.co/900x600/006688/ffffff?text=Parcelario" alt="Parcelario" />
           </div>
           <div className="bloque-text">
-            <h2>Integración de datos</h2>
+            <h2>Integración de Datos</h2>
             <p>
               Unimos datos fotogramétricos, LiDAR y GNSS para ofrecer productos catastrales completos y auditables.
             </p>

@@ -8,7 +8,7 @@ export default function Contacto() {
       <header className="contacto-hero">
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1>Contáctenos</h1>
+          <h1>Contáctanos</h1>
           <p>
             Estamos listos para ayudarte en tu próximo proyecto aéreo.
           </p>

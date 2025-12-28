@@ -8,7 +8,7 @@ export default function LiDAR() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <h1>LiDAR — Levantamientos de Alta Precisión</h1>
-          <p>Generamos nubes de puntos densas y productos derivados para cartografia y topografía.</p>
+          <p>Generamos nubes de puntos densas y productos derivados para cartografía y topografía.</p>
         </div>
       </header>
 
@@ -54,8 +54,8 @@ export default function LiDAR() {
           <div className="bloque-text">
             <h2>Aplicaciones</h2>
             <p>
-              Ideal para obras civiles, gestión de riesgo, cartografia basica,
-               adecuación de tierras, modelamiento hidraulico, estudios geotécnicos,
+              Ideal para obras civiles, gestión de riesgo, cartografía básica,
+               adecuación de tierras, modelamiento hidráulico, estudios geotécnicos,
                planificación de infraestructuras y análisis forestal.
             </p>
 

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="col">
           <h3>ExploraUAV</h3>
-          <p>Información geoespacial multiproposito.</p>
+          <p>Información geoespacial multipropósito.</p>
         </div>
 
         <div className="col">

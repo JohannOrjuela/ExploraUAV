@@ -53,9 +53,9 @@ export default function Fotogrametria() {
           <div className="bloque-text">
             <h2>Usos comunes</h2>
             <p>
-              Catastro, cartografia basica/tematica, monitoreo de obras,
+              Catastro, cartografía básica/temática, monitoreo de obras,
               agricultura de precisión, levantamientos topográficos,
-              modelamientos hidraulicos, ordenamiento territorial, entre otros.
+              modelamientos hidráulicos, ordenamiento territorial, entre otros.
             </p>
           </div>
         </section>
