@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/navbar.css";
 
 export default function Navbar() {
@@ -9,13 +10,15 @@ export default function Navbar() {
       <div className="nav-container">
 
         <div className="logo">
-          <img src="/images/logo/Logo_UAV.png" alt="Logo UAV" />
+          <Link to="/">
+            <img src="/images/logo/Logo_UAV.png" alt="Logo UAV" />
+          </Link>
         </div>
 
         <ul className="nav-links">
 
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/nosotros">Nosotros</a></li>
+          <li><Link to="/">Inicio</Link></li>
+          <li><Link to="/nosotros">Nosotros</Link></li>
 
           {/* Dropdown */}
           <li
@@ -27,16 +30,17 @@ export default function Navbar() {
 
             {open && (
               <ul className="dropdown-menu">
-                <li><a href="/servicios/lidar">LiDAR</a></li>
-                <li><a href="/servicios/fotogrametria">Fotogrametría</a></li>
-                <li><a href="/servicios/cartografia">Cartografía</a></li>
-                <li><a href="/servicios/capacitacion">Capacitación</a></li>
-                <li><a href="/servicios/catastro">Catastro</a></li>
+                <li><Link to="/servicios/lidar">LiDAR</Link></li>
+                <li><Link to="/servicios/fotogrametria">Fotogrametría</Link></li>
+                <li><Link to="/servicios/cartografia">Cartografía</Link></li>
+                <li><Link to="/servicios/capacitacion">Capacitación</Link></li>
+                <li><Link to="/servicios/catastro">Catastro</Link></li>
               </ul>
             )}
           </li>
-          <li><a href="/proyectos">Proyectos</a></li>
-          <li><a href="/contacto">Contacto</a></li>
+
+          <li><Link to="/proyectos">Proyectos</Link></li>
+          <li><Link to="/contacto">Contacto</Link></li>
 
         </ul>
       </div>
