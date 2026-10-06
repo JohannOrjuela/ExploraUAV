@@ -74,19 +74,27 @@ export default function Nosotros() {
             alt="Ingeniero 3"
           />
           <div className="equipo-info">
-            <h2>Diego Andrés Marlés Monje</h2>
+            <h2>Diego Arturo Preciado Sánchez</h2>
             <p>
-              Ingeniero Catastral y Geodesta | Especialista en Formulación y Evaluación de Proyectos
+              Profesional en Relaciones Económicas Internacionales | Tecnólogo en Desarrollo de Software |
+               Técnico Profesional en Electromecánica | Piloto RPAS Certificado
 
-              Profesional con más de 15 años de experiencia en catastro, conservación catastral
-              y manejo de información geoespacial. Especializado en estudios de títulos inmobiliarios,
-              avalúo de inmuebles y sistemas de información geográfica (SIG). Ha liderado procesos
-              catastrales y cartográficos así como proyectos territoriales en entidades como el
-              Instituto Geográfico Agustín Codazzi y la Corporación Autónoma para el Desarrollo
-              de la Amazonia a través de la Universidad de la Amazonia. Posee habilidades avanzadas en
-              software geoespacial como ArcGIS, QGIS y AutoCAD, complementadas con una estudios de maestría
-              en Geografía y Especialización en Pedagogía.. Destaca por su capacidad de análisis integral,
-              liderazgo y compromiso en la gestión eficiente en torno a metas concretas.
+              Profesional multidisciplinario con formación en relaciones económicas internacionales,
+              desarrollo de software y electromecánica, complementada con estudios en ingeniería de sistemas.
+              Cuenta con más de 15 años de experiencia en el área comercial y logística, integrando capacidades
+               de gestión, coordinación operativa y análisis estratégico con habilidades técnicas aplicadas a
+              entornos tecnológicos y geoespaciales.
+              Certificado como Piloto de Operaciones RPAS desde 2017, con experiencia en apoyo operativo y
+              logístico en proyectos de levantamientos cartográficos con drones, actividades de campo,
+              coordinación y notificación a autoridades competentes, materialización y demarcación de
+              puntos de control, ejecución de vuelos fotogramétricos y misiones LiDAR, garantizando
+              cumplimiento normativo, precisión y eficiencia operativa.
+              Posee competencias en planificación logística, organización de recursos, gestión con equipos
+              de trabajo en campo y soporte técnico en operaciones UAV. Su formación le permite comprender
+               e integrar soluciones digitales, procesamiento de datos y estructuración de sistemas de
+               información aplicados a proyectos geoespaciales.
+              Se caracteriza por su pensamiento analítico, capacidad de adaptación a entornos tecnológicos,
+              orientación a resultados y compromiso con la calidad y seguridad en operaciones técnicas.
             </p>
           </div>
         </div>
