@@ -22,7 +22,7 @@ export default function Nosotros() {
         {/* ------------- INGENIERO 1 ------------- */}
         <div className="equipo-item">
           <img
-            src="/images/nosotros/pilotoUAV.png"
+            src="/images/nosotros/pilotoUAV.jpg"
             className="equipo-img"
             alt="Ingeniero 1"
           />
@@ -44,7 +44,7 @@ export default function Nosotros() {
         {/* ------------- INGENIERO 2 ------------- */}
         <div className="equipo-item reverse">
           <img
-            src="/images/nosotros/ingeniera.png"
+            src="/images/nosotros/ingeniera.jpg"
             className="equipo-img"
             alt="Ingeniera 2"
           />
@@ -69,7 +69,7 @@ export default function Nosotros() {
         {/* ------------- INGENIERO 3 ------------- */}
         <div className="equipo-item">
           <img
-            src="/images/nosotros/ingeniero.png"
+            src="/images/nosotros/ingeniero.jpg"
             className="equipo-img"
             alt="Ingeniero 3"
           />

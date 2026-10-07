@@ -17,21 +17,23 @@ export default function Proyectos() {
       {/* ----------- PROYECTO 1 ----------- */}
       <div className="proyecto-item">
         <img
-          src="https://placehold.co/700x450/00a8d6/ffffff?text=Proyecto+1"
+          src="/images/proyectos/Guajira.jpg"
           alt="Proyecto LiDAR"
           className="proyecto-img"
         />
         <div className="proyecto-info">
-          <h2>Mapeo LiDAR para Análisis Topográfico</h2>
+          <h2>Levantamiento LiDAR para infraestructura de acueducto</h2>
           <p>
-            Levantamiento LiDAR de 320 hectáreas para modelado digital del
-            terreno (MDT), curvas de nivel y análisis de pendientes.
-            Información clave para el diseño de vías y obras civiles.
+            Levantamiento geoespacial multipropósito sobre 40 kilómetros
+            de corredor en La Guajira, desarrollado como soporte técnico
+            para el diseño y la construcción de infraestructura de acueducto.
+            La integración de tecnología LiDAR y fotogrametría permitió convertir
+            la captura aérea en información detallada sobre el terreno, la superficie
+            y los elementos existentes a lo largo del corredor.
           </p>
           <ul>
-            <li>✔ Precisión centimétrica</li>
-            <li>✔ Nube de puntos clasificada</li>
-            <li>✔ MDT + MDS + Curvas cada 1 metro</li>
+            <li>Ubicación: La Guajira</li>
+            <li>Extensión: 40 km </li>
           </ul>
         </div>
       </div>
@@ -39,42 +41,50 @@ export default function Proyectos() {
       {/* ----------- PROYECTO 2 ----------- */}
       <div className="proyecto-item reverse">
         <img
-          src="https://placehold.co/700x450/0077aa/ffffff?text=Proyecto+2"
+          src="/images/proyectos/Parque Solar.jpg"
           alt="Fotogrametría"
           className="proyecto-img"
         />
         <div className="proyecto-info">
-          <h2>Ortomosaicos para Catastro Multipropósito</h2>
+          <h2>Parque Puerta de Oro Solar</h2>
           <p>
-            Captura fotogramétrica de alta resolución para actualización
-            catastral y análisis urbano-rural. Entrega certificada
-            con geoetiquetado y precisión registrada.
+          Levantamiento LiDAR y fotogramétrico realizado en el
+          parque Puerta de Oro Solar para generar un modelo
+          digital detallado del terreno. El procesamiento
+          permite representar las variaciones del relieve
+          y disponer de información topográfica útil para el
+          análisis del área y la planificación técnica del
+          proyecto energético.
           </p>
-          <ul>
-            <li>✔ Ortomosaico 2.3 cm/pixel</li>
-            <li>✔ Procesamiento con estándares IGAC</li>
-            <li>✔ Análisis parcelario con segmentación</li>
-          </ul>
         </div>
       </div>
-
       {/* ----------- PROYECTO 3 ----------- */}
-      <div className="proyecto-item">
-        <img
-          src="https://placehold.co/700x450/005f88/ffffff?text=Proyecto+3"
-          alt="Inspección y análisis"
+     <div className="proyecto-item">
+        <video
           className="proyecto-img"
-        />
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="metadata"
+        >
+          <source src="/videos/Modelos3D.mp4" type="video/mp4" />
+          Tu navegador no puede reproducir este video.
+        </video>
+
         <div className="proyecto-info">
-          <h2>Inspecciones Aéreas e Infraestructura</h2>
+          <h2>Cartografía y modelo 3D para análisis catastral</h2>
+
           <p>
-            Inspecciones de torres, techos industriales y líneas eléctricas
-            utilizando drones con cámaras térmicas y zoom óptico.
+            Levantamiento fotogramétrico desarrollado en San Vicente, Antioquia,
+            para la generación de cartografía y un modelo tridimensional con fines
+            catastrales. La reconstrucción digital permite observar edificaciones,
+            cubiertas, vías, vegetación y demás elementos del entorno desde una
+            perspectiva espacial continua.
           </p>
+
           <ul>
-            <li>✔ Detección de anomalías</li>
-            <li>✔ Imágenes térmicas + RGB</li>
-            <li>✔ Reporte técnico automatizado</li>
+            <li>Ubicación: San Vicente, Antioquia</li>
           </ul>
         </div>
       </div>
